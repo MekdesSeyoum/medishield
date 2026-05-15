@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "member_id": "M001234",
+      "full_name": "Jane Doe",
+      "dob": "1985-03-15",
+      "policy_number": "POL-2024-001234",
+      "policy_expiry": "2027-01-01",
+      "plan_type": "GOLD"
+    },
+    {
+      "member_id": "M005678",
+      "full_name": "John Smith",
+      "dob": "1970-07-22",
+      "policy_number": "POL-2024-005678",
+      "policy_expiry": "2026-06-30",
+      "plan_type": "SILVER"
+    },
+    {
+      "member_id": "M009012",
+      "full_name": "Maria Garcia",
+      "dob": "1992-11-05",
+      "policy_number": "POL-2024-009012",
+      "policy_expiry": "2027-12-31",
+      "plan_type": "PLATINUM"
+    },
+    {
+      "member_id": "M003456",
+      "full_name": "Robert Lee",
+      "dob": "1958-01-30",
+      "policy_number": "POL-2024-003456",
+      "policy_expiry": "2026-12-31",
+      "plan_type": "GOLD"
+    },
+    {
+      "member_id": "M007890",
+      "full_name": "Sarah Johnson",
+      "dob": "1988-06-18",
+      "policy_number": "POL-2024-007890",
+      "policy_expiry": "2027-06-30",
+      "plan_type": "SILVER"
+    },
+    {
+      "member_id": "M002468",
+      "full_name": "Alice Chen",
+      "dob": "1995-08-20",
+      "policy_number": "POL-2024-002468",
+      "policy_expiry": "2027-03-31",
+      "plan_type": "BRONZE"
+    },
+    {
+      "member_id": "M009999",
+      "full_name": "Alice Johnson",
+      "dob": "1990-11-01",
+      "policy_number": "POL-2024-009999",
+      "policy_expiry": "2026-03-31",
+      "plan_type": "BRONZE"
+    },
+    {
+      "member_id": "M008765",
+      "full_name": "David Kim",
+      "dob": "1982-09-10",
+      "policy_number": "POL-2024-008765",
+      "policy_expiry": "2027-06-30",
+      "plan_type": "GOLD"
+    },
+    {
+      "member_id": "M001122",
+      "full_name": "Nina Patel",
+      "dob": "1993-03-27",
+      "policy_number": "POL-2024-001122",
+      "policy_expiry": "2027-12-31",
+      "plan_type": "SILVER"
+    }
+  ]
+}

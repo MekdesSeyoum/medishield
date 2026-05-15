@@ -1,0 +1,144 @@
+{
+  "claims": [
+    {
+      "claim_id": "H001",
+      "patient_id": "PAT-001",
+      "provider_npi": "1111111111",
+      "claim_amount": 150.00,
+      "service_date": "2024-01-05"
+    },
+    {
+      "claim_id": "H002",
+      "patient_id": "PAT-001",
+      "provider_npi": "1111111111",
+      "claim_amount": 175.00,
+      "service_date": "2024-02-10"
+    },
+    {
+      "claim_id": "H003",
+      "patient_id": "PAT-002",
+      "provider_npi": "2222222222",
+      "claim_amount": 300.00,
+      "service_date": "2024-03-18"
+    },
+    {
+      "claim_id": "H004",
+      "patient_id": "PAT-003",
+      "provider_npi": "3333333333",
+      "claim_amount": 190.00,
+      "service_date": "2024-01-10"
+    },
+    {
+      "claim_id": "H005",
+      "patient_id": "PAT-003",
+      "provider_npi": "3333333333",
+      "claim_amount": 210.00,
+      "service_date": "2024-01-20"
+    },
+    {
+      "claim_id": "H006",
+      "patient_id": "PAT-003",
+      "provider_npi": "3333333333",
+      "claim_amount": 185.00,
+      "service_date": "2024-02-05"
+    },
+    {
+      "claim_id": "H007",
+      "patient_id": "PAT-003",
+      "provider_npi": "3333333333",
+      "claim_amount": 220.00,
+      "service_date": "2024-02-15"
+    },
+    {
+      "claim_id": "H008",
+      "patient_id": "PAT-003",
+      "provider_npi": "3333333333",
+      "claim_amount": 195.00,
+      "service_date": "2024-02-25"
+    },
+    {
+      "claim_id": "H009",
+      "patient_id": "PAT-004A",
+      "provider_npi": "4444444444",
+      "claim_amount": 200.00,
+      "service_date": "2024-03-14"
+    },
+    {
+      "claim_id": "H010",
+      "patient_id": "PAT-004B",
+      "provider_npi": "4444444444",
+      "claim_amount": 200.00,
+      "service_date": "2024-03-15"
+    },
+    {
+      "claim_id": "H011",
+      "patient_id": "PAT-004C",
+      "provider_npi": "4444444444",
+      "claim_amount": 200.00,
+      "service_date": "2024-03-16"
+    },
+    {
+      "claim_id": "H012",
+      "patient_id": "PAT-004D",
+      "provider_npi": "4444444444",
+      "claim_amount": 200.00,
+      "service_date": "2024-03-17"
+    },
+    {
+      "claim_id": "H013",
+      "patient_id": "PAT-004E",
+      "provider_npi": "4444444444",
+      "claim_amount": 200.00,
+      "service_date": "2024-03-18"
+    },
+    {
+      "claim_id": "H014",
+      "patient_id": "PAT-004F",
+      "provider_npi": "4444444444",
+      "claim_amount": 200.00,
+      "service_date": "2024-03-19"
+    },
+    {
+      "claim_id": "H015",
+      "patient_id": "PAT-005A",
+      "provider_npi": "4444444444",
+      "claim_amount": 210.00,
+      "service_date": "2026-05-09"
+    },
+    {
+      "claim_id": "H016",
+      "patient_id": "PAT-005B",
+      "provider_npi": "4444444444",
+      "claim_amount": 195.00,
+      "service_date": "2026-05-10"
+    },
+    {
+      "claim_id": "H017",
+      "patient_id": "PAT-005C",
+      "provider_npi": "4444444444",
+      "claim_amount": 220.00,
+      "service_date": "2026-05-11"
+    },
+    {
+      "claim_id": "H018",
+      "patient_id": "PAT-005D",
+      "provider_npi": "4444444444",
+      "claim_amount": 205.00,
+      "service_date": "2026-05-12"
+    },
+    {
+      "claim_id": "H019",
+      "patient_id": "PAT-005E",
+      "provider_npi": "4444444444",
+      "claim_amount": 215.00,
+      "service_date": "2026-05-13"
+    },
+    {
+      "claim_id": "H020",
+      "patient_id": "PAT-005F",
+      "provider_npi": "4444444444",
+      "claim_amount": 200.00,
+      "service_date": "2026-05-14"
+    }
+  ]
+}

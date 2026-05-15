@@ -1,0 +1,27 @@
+from enum import Enum
+
+
+class DocumentType(str, Enum):
+    CLAIM_FORM = "CLAIM_FORM"
+    ID_DOCUMENT = "ID_DOCUMENT"
+    MEMBERSHIP_CARD = "MEMBERSHIP_CARD"
+    MEDICAL_REPORT = "MEDICAL_REPORT"
+    PRESCRIPTION = "PRESCRIPTION"
+    POLICY_DOC = "POLICY_DOC"
+    UNKNOWN = "UNKNOWN"
+
+
+class CaseStatus(str, Enum):
+    PENDING = "PENDING"
+    PROCESSING = "PROCESSING"
+    APPROVED = "APPROVED"
+    DENIED = "DENIED"
+    ESCALATED = "ESCALATED"
+    PENDING_INFO = "PENDING_INFO"
+
+
+class DecisionOutcome(str, Enum):
+    APPROVED = "APPROVED"
+    DENIED = "DENIED"
+    ESCALATED = "ESCALATED"
+    PENDING_INFO = "PENDING_INFO"

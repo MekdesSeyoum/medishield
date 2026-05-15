@@ -1,0 +1,32 @@
+[
+  {
+    "id": "clause_outpatient_em",
+    "text": "Section 4.2 — Outpatient Evaluation and Management: Visits coded under CPT 99201–99215 (office or other outpatient services, new and established patients) are a covered benefit at 80% of the allowed amount after the annual deductible has been met. This includes office visits, specialist consultations, and telehealth encounters with participating providers.",
+    "metadata": {"section": "4.2", "category": "outpatient", "cpt_range": "99201-99215"}
+  },
+  {
+    "id": "clause_preventive",
+    "text": "Section 4.1 — Preventive Care: Annual wellness visits and preventive screenings (CPT 99381–99397, G0438, G0439) are covered at 100% with no deductible when performed by a participating provider. Immunisations and routine laboratory panels ordered during a preventive visit are also covered in full.",
+    "metadata": {"section": "4.1", "category": "preventive"}
+  },
+  {
+    "id": "clause_radiology",
+    "text": "Section 5.1 — Diagnostic Radiology: The following imaging services are covered at 70% of the allowed amount when ordered by a participating provider and deemed medically necessary: Chest X-ray two views (CPT 71046), CT Thorax without contrast (CPT 71250), MRI Brain without contrast (CPT 70553), Abdominal ultrasound (CPT 76700), and Echocardiogram complete (CPT 93306).",
+    "metadata": {"section": "5.1", "category": "radiology"}
+  },
+  {
+    "id": "clause_surgery",
+    "text": "Section 6.0 — Surgical Services: Inpatient and outpatient surgical procedures are covered at 75% of the allowed amount after the deductible. Pre-authorization is required for any elective procedure with an estimated allowed amount exceeding $5,000. Emergency surgery is covered without prior authorisation.",
+    "metadata": {"section": "6.0", "category": "surgery"}
+  },
+  {
+    "id": "clause_exclusions_cosmetic",
+    "text": "Section 9.1 — Exclusions — Cosmetic and Aesthetic Procedures: The following procedures are expressly excluded from coverage and will not be reimbursed under any circumstances: Blepharoplasty (CPT 15820, 15821), Rhinoplasty (CPT 30400–30420), Rhytidectomy / facelift (CPT 15824), Liposuction (CPT 15876–15879), Breast augmentation (CPT 19325), Abdominoplasty (CPT 15830), and any procedure determined by the Plan Administrator to be primarily cosmetic in nature rather than medically necessary.",
+    "metadata": {"section": "9.1", "category": "exclusion"}
+  },
+  {
+    "id": "clause_exclusions_general",
+    "text": "Section 9.2 — General Exclusions: Services not covered include: experimental or investigational treatments not approved by the FDA, bariatric surgery unless BMI exceeds 40 with documented comorbidities, dental services (except oral surgery for accidental injury), vision correction surgery (LASIK, PRK, SMILE), and services not pre-authorised when pre-authorisation is required by the plan.",
+    "metadata": {"section": "9.2", "category": "exclusion"}
+  }
+]

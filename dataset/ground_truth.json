@@ -1,0 +1,146 @@
+[
+  {
+    "file_name": "claim_form_001.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "APPROVE",
+    "description": "Office visit \u2014 pneumonia, covered CPT 99213"
+  },
+  {
+    "file_name": "claim_form_002.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "APPROVE",
+    "description": "Chest X-ray for hypertension follow-up, covered CPT 71046"
+  },
+  {
+    "file_name": "claim_form_003.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "APPROVE",
+    "description": "Annual preventive care exam, covered at 100%"
+  },
+  {
+    "file_name": "claim_form_004.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "APPROVE",
+    "description": "ECG for cardiac evaluation, covered diagnostic test"
+  },
+  {
+    "file_name": "claim_form_005.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "APPROVE",
+    "description": "Level-4 office visit for back pain, covered CPT 99214"
+  },
+  {
+    "file_name": "id_document_001.png",
+    "doc_type": "ID_DOCUMENT",
+    "expected_decision": "APPROVE",
+    "description": "Valid membership card \u2014 Jane Doe, GOLD plan"
+  },
+  {
+    "file_name": "id_document_002.png",
+    "doc_type": "ID_DOCUMENT",
+    "expected_decision": "APPROVE",
+    "description": "Valid membership card \u2014 John Smith, SILVER plan"
+  },
+  {
+    "file_name": "id_document_003.png",
+    "doc_type": "ID_DOCUMENT",
+    "expected_decision": "APPROVE",
+    "description": "Valid membership card \u2014 Maria Garcia, PLATINUM plan"
+  },
+  {
+    "file_name": "id_document_004.png",
+    "doc_type": "ID_DOCUMENT",
+    "expected_decision": "APPROVE",
+    "description": "Valid membership card \u2014 Robert Lee, GOLD plan"
+  },
+  {
+    "file_name": "medical_report_001.png",
+    "doc_type": "MEDICAL_REPORT",
+    "expected_decision": "APPROVE",
+    "description": "Pneumonia inpatient stay 3 days \u2014 covered"
+  },
+  {
+    "file_name": "medical_report_002.png",
+    "doc_type": "MEDICAL_REPORT",
+    "expected_decision": "APPROVE",
+    "description": "Hypertension 1-day observation \u2014 covered"
+  },
+  {
+    "file_name": "medical_report_003.png",
+    "doc_type": "MEDICAL_REPORT",
+    "expected_decision": "APPROVE",
+    "description": "Wrist fracture 2-day stay \u2014 covered"
+  },
+  {
+    "file_name": "prescription_001.png",
+    "doc_type": "PRESCRIPTION",
+    "expected_decision": "APPROVE",
+    "description": "Antibiotic for pneumonia \u2014 covered"
+  },
+  {
+    "file_name": "prescription_002.png",
+    "doc_type": "PRESCRIPTION",
+    "expected_decision": "APPROVE",
+    "description": "ACE inhibitor for hypertension \u2014 covered"
+  },
+  {
+    "file_name": "prescription_003.png",
+    "doc_type": "PRESCRIPTION",
+    "expected_decision": "APPROVE",
+    "description": "Diabetes medication \u2014 covered"
+  },
+  {
+    "file_name": "fraud_duplicate_claim.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "ESCALATE",
+    "description": "Exact duplicate of claim_form_001 \u2014 fraud score HIGH"
+  },
+  {
+    "file_name": "fraud_tampered_id.png",
+    "doc_type": "ID_DOCUMENT",
+    "expected_decision": "REJECT",
+    "description": "Tampered membership card \u2014 photo and expiry altered"
+  },
+  {
+    "file_name": "fraud_excluded_procedure.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "REJECT",
+    "description": "Cosmetic blepharoplasty \u2014 excluded under Section 9.1"
+  },
+  {
+    "file_name": "reject_expired_card.png",
+    "doc_type": "ID_DOCUMENT",
+    "expected_decision": "REJECT",
+    "description": "Expired membership card (2022-12-31) \u2014 DOCUMENT_EXPIRED \u2192 KYC fails"
+  },
+  {
+    "file_name": "reject_unknown_member.png",
+    "doc_type": "ID_DOCUMENT",
+    "expected_decision": "REJECT",
+    "description": "Member ID M999999 not in registry \u2014 MEMBER_NOT_FOUND \u2192 KYC fails"
+  },
+  {
+    "file_name": "escalate_amount_outlier.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "ESCALATE",
+    "description": "Amount $1,500 far exceeds provider 3333333333 2\u03c3 threshold (~$229) \u2192 fraud ESCALATE"
+  },
+  {
+    "file_name": "escalate_high_freq_provider.png",
+    "doc_type": "CLAIM_FORM",
+    "expected_decision": "ESCALATE",
+    "description": "Provider 4444444444 submitted 6 claims in past 7 days \u2192 high-frequency fraud ESCALATE"
+  },
+  {
+    "file_name": "unknown_document_001.png",
+    "doc_type": "UNKNOWN",
+    "expected_decision": "ESCALATE",
+    "description": "German-language insurance document \u2014 cannot auto-classify"
+  },
+  {
+    "file_name": "unknown_document_002.png",
+    "doc_type": "UNKNOWN",
+    "expected_decision": "ESCALATE",
+    "description": "Partial/corrupted scan \u2014 insufficient data to classify"
+  }
+]
